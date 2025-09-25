@@ -36,6 +36,8 @@ Test Kaybı (Loss): 1.0650
 3.2 Grafik Analizi ve Overfitting Yorumu
 Eğitimden elde edilen Accuracy ve Loss Grafikleri dikkatle analiz edilmiştir:
 
+
+
 Yorum: Grafikler incelendiğinde, eğitim doğruluk eğrisinin doğrulama doğruluk eğrisi ile çok yakın seyrettiği gözlemlenmiştir. 
 Bu durum, uygulanan Dropout ve Data Augmentation tekniklerinin overfitting'i başarılı bir şekilde kontrol altına aldığını ve modelin yeni verilere iyi bir genelleme yeteneği sergilediğini kanıtlamaktadır.
 
@@ -60,4 +62,8 @@ Optimizer Denemeleri: Adam yerine RMSprop veya SGD gibi farklı optimize edicile
 Mimarinin Derinliği: Daha derin veya daha sığ CNN mimarilerinin, elde edilen doğruluk ve hesaplama maliyeti açısından karşılaştırılması.
 
 Batch Size Optimizasyonu: Eğitim kararlılığını artırmak amacıyla farklı Batch Size değerlerinin test edilmesi.
+
+LİNKLER
+
+
 
