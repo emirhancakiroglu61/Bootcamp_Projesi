@@ -7,7 +7,10 @@ Proje, titiz bir veri hazırlığı ile başladı.
  Görüntü piksel değerleri 0 ile 1 arasına normalize edildi ve etiketler One-Hot Encoding formatına dönüştürülerek çok sınıflı sınıflandırmaya uygun hale getirildi.
 
 1.1 Veri Çoğaltma (Data Augmentation) Uygulaması
-Proje kriterlerine uygun olarak, Veri Çoğaltma tekniğini aktif olarak kullandım. Bu yöntem, modelin genelleme yeteneğini artırmak ve eğitim verisinin sınırlılığından kaynaklanan overfitting riskini ortadan kaldırmak amacıyla hayati bir rol oynamıştır. ImageDataGenerator kullanarak rastgele döndürme, kaydırma ve yatay çevirme gibi dönüşümler uygulayarak modelin her epoch'ta yeni varyasyonlarla karşılaşmasını sağladım.
+Proje kriterlerine uygun olarak, Veri Çoğaltma tekniğini aktif olarak kullandım. Bu yöntem, modelin genelleme yeteneğini artırmak ve eğitim verisinin sınırlılığından kaynaklanan overfitting riskini ortadan kaldırmak amacıyla hayati bir rol oynamıştır.
+ImageDataGenerator kullanarak rastgele döndürme, kaydırma ve yatay çevirme gibi dönüşümler uygulayarak modelin her epoch'ta yeni varyasyonlarla karşılaşmasını sağladım.
+<img width="983" height="440" alt="image" src="https://github.com/user-attachments/assets/3c29c3f8-f17c-4ff3-81df-97858837d0eb" />
+
 
 2. CNN Model Mimarisi ve Regularizasyon Stratejileri
 Modelim, proje gerekliliklerini karşılayan sığ ancak optimize edilmiş bir CNN yapısına sahiptir.
@@ -22,7 +25,8 @@ Bu katmanları stratejik olarak modelin birden fazla noktasına (özellikle tam 
 Dropout, nöronlar arasındaki ortak adaptasyonu kesintiye uğratarak modelin eğitim verisindeki rastgele gürültüyü ezberlemesi yerine, daha soyut ve genelleştirilebilir özellikler öğrenmeye zorlar.
 
 3. Eğitim Sonuçları ve Kapsamlı Değerlendirme
-Model, Data Augmentation uygulanmış veri akışı üzerinde [Epoch Sayınızı Yazın] epoch boyunca eğitilmiştir.
+Model, Data Augmentation uygulanmış veri akışı üzerinde [10] epoch boyunca eğitilmiştir.
+<img width="1073" height="699" alt="image" src="https://github.com/user-attachments/assets/2cfb0f62-9b77-4ee0-94a2-a5d75dabc1e0" />
 
 3.1 Model Performans Skoru
 Test Doğruluğu (Accuracy): % 62.86
