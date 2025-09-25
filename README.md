@@ -38,6 +38,11 @@ Bu durum, uygulanan Dropout ve Data Augmentation tekniklerinin overfitting'i ba�
 3.3 Hata Analizi ve Sınıflandırma Raporu
 Confusion Matrix analizi, modelin en çok [Örn: Kedi ve Köpek] gibi görsel olarak benzeyen sınıfları karıştırdığını gösterirken, [ uçak ] sınıfında ise en yüksek doğrulukla sınıflandırma yapmıştır.
 Classification Report çıktısı, her bir sınıf için detaylı Precision, Recall ve F1-Score metriklerini sağlayarak modelin sınıf bazlı dengesini ortaya koymuştur.
+<img width="889" height="411" alt="image" src="https://github.com/user-attachments/assets/6995de6a-44bd-400d-b974-01d5052d701f" />
+
+<img width="786" height="700" alt="image" src="https://github.com/user-attachments/assets/8836fda9-ea81-4337-be0a-c0b214b6ce6d" />
+
+<img width="677" height="482" alt="image" src="https://github.com/user-attachments/assets/9bba4436-a49c-4a94-a7ca-82f4e21e7600" />
 
 4. İleri Seviye Görselleştirme ve Optimizasyon
 4.1 Grad-CAM Şeffaflık Analizi (Gereklilik)
