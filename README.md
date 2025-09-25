@@ -64,6 +64,6 @@ Mimarinin Derinliği: Daha derin veya daha sığ CNN mimarilerinin, elde edilen 
 Batch Size Optimizasyonu: Eğitim kararlılığını artırmak amacıyla farklı Batch Size değerlerinin test edilmesi.
 
 LİNKLER
-
+https://www.kaggle.com/code/emirhanakrolu/notebook10d6eacd11
 
 
