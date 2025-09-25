@@ -1,4 +1,4 @@
-🎓 CNN Temelli CIFAR-10 Görüntü Sınıflandırma Projesi
+ CNN Temelli CIFAR-10 Görüntü Sınıflandırma Projesi
 Bu proje, görüntü işleme alanındaki akademik beklentilere uygun olarak, CIFAR-10 veri seti üzerinde geliştirilmiş detaylı bir Evrişimli Sinir Ağı (CNN) çözümünü sunmaktadır. 
 Projenin ana hedefi, sağlam bir mimari ve ileri düzey düzenlileştirme teknikleri kullanarak aşırı öğrenmeye (overfitting) karşı dayanıklı, yüksek performanslı bir model ortaya koymaktır.
 
