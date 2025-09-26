@@ -54,14 +54,16 @@ Classification Report çıktısı, her bir sınıf için detaylı Precision, Rec
 4.1 Grad-CAM Şeffaflık Analizi (Gereklilik)
 Proje yönergesinde istenen Grad-CAM (Heatmap) görselleştirmesi, modelin tahmin yaparken görüntünün hangi bölgelerine odaklandığını kanıtlayarak karar verme sürecini şeffaflaştırmaktadır. Bu, modelin yalnızca doğru sonucu vermekle kalmayıp, mantıksal olarak doğru nesne özelliklerine baktığını gösterir.
 
-4.2 Gelecek Çalışmalar ve Hiperparametre Optimizasyonu
-Model performansını daha da ileri taşımak için Hiperparametre Optimizasyonu üzerinde çalışılacaktır. Planlanan adımlar şunlardır:
+Sonuç ve Gelecek Çalışmalar
+Bu proje, temel bir CNN modelinin görüntü sınıflandırma zorluklarını aşmak için Data Augmentation ve Dropout gibi modern tekniklerle nasıl güçlendirileceğini başarıyla göstermiştir. Elde edilen %48 doğruluk, mimarinin potansiyelini göstermekle birlikte, projenin gelecekteki gelişim için güçlü bir temel oluşturmaktadır.
 
-Optimizer Denemeleri: Adam yerine RMSprop veya SGD gibi farklı optimize ediciler ile öğrenme oranlarının (Learning Rate) denenmesi.
+Bu çalışma benim için bir son değil, Derin Öğrenme yolculuğumdaki sağlam bir başlangıç noktasıdır. Projeyi bir portföy değeri olarak görüyor ve kariyerimdeki ilgi alanlarım doğrultusunda şu vizyon ile geliştirmeyi planlıyorum:
 
-Mimarinin Derinliği: Daha derin veya daha sığ CNN mimarilerinin, elde edilen doğruluk ve hesaplama maliyeti açısından karşılaştırılması.
+Transfer Öğrenme (Transfer Learning) Entegrasyonu: Modelin sığ yapısını aşarak doğruluğu önemli ölçüde artırmak için, VGG16 veya ResNet50 gibi ImageNet üzerinde önceden eğitilmiş (pre-trained) modellerin kullanılması hedeflenmektedir. Bu, özellikle Kedi/Geyik gibi karıştırılan sınıflarda özellik çıkarım kalitesini yükseltecektir.
 
-Batch Size Optimizasyonu: Eğitim kararlılığını artırmak amacıyla farklı Batch Size değerlerinin test edilmesi.
+Arayüz Geliştirme (Deployment): Modelin Jupyter/Kaggle not defterinde kalmasını istemiyorum. Projemin gerçek zamanlı kullanılabilirliğini göstermek için bir web arayüzü (UI) geliştireceğim. Bu arayüzü Streamlit/Flask gibi Python tabanlı bir framework ile oluşturarak, kullanıcıların kendi görüntülerini yükleyip anında model tahmini alabilmelerini sağlayacağım. Bu, projeyi interaktif ve pazarlanabilir bir ürüne dönüştürecektir.
+
+Dinamik Veri Akışı: Şu anki çalışma statik bir veri setine dayanmaktadır. Gelecekte, projeyi dinamik bir veri toplama aşaması ile birleştirerek, belirli bir alandan (örneğin trafik kameralarından) gerçek zamanlı görüntü akışı alıp sınıflandırma yapabilen bir yapıya dönüştürmeyi hedefliyorum. Bu, Edge Computing ve Gerçek Zamanlı Analiz gibi alanlara olan ilgimi somutlaştıracaktır.
 
 LİNKLER
 https://www.kaggle.com/code/emirhanakrolu/notebook10d6eacd11
